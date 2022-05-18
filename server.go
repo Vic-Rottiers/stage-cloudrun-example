@@ -15,7 +15,8 @@ type Phrase struct {
 
 func HelloWorld() Phrase {
     return Phrase{
-            Text: "Hello, world",
+            Text: "Hello world! Dit is een test bij het deployen van een CI/CD systeem voor een Go applicatie",
+            Text: "Test 2",
     }
 }
 
